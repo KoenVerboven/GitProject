@@ -6,19 +6,14 @@ namespace GitProject.Controllers
 
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController(ILogger<WeatherForecastController> logger) : ControllerBase
     {
-        private static readonly string[] WheaterSummaries = new[]
-        {
+        private static readonly string[] WheaterSummaries =
+        [
             "Freezing", "Bracing", "Chilly", "Colder", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Very Very Cold", "Very Very Hot"
-        };
+        ];
 
-        private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
-        {
-            _logger = logger;
-        }
+        private readonly ILogger<WeatherForecastController> _logger = logger;
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
