@@ -10,7 +10,7 @@ namespace GitProject.Controllers
     {
         private static readonly string[] WheaterSummaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Very Cold", "Very Hot"
+            "Freezing", "Bracing", "Chilly", "Colder", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Very Very Cold", "Very Very Hot"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
