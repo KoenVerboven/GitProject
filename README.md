@@ -46,6 +46,13 @@ git checkout feature_medicalworker
 
 --> makes branch feature_medicalworker active
 
+## Commit
+```
+git commit -m "Add class MedicalWorker"
+```
+"Add class MedicalWorker" = Commit Message
+
+
 ## Show all commits:
 ```
 git log
