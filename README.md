@@ -32,6 +32,8 @@ git checkout -b feature_medicalworker
 
 git checkout feature_medicalworker
 
+--> makes branch feature_medicalworker active
+
 ## Show all commits:
 
 git log
