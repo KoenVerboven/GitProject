@@ -25,3 +25,7 @@ git checkout -b feature_medicalworker
 Switch between branches:
 
 git checkout feature_medicalworker
+
+Show all commits:
+
+git log
