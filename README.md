@@ -65,6 +65,10 @@ git commit -m "Add class MedicalWorker"
 ```
 "Add class MedicalWorker" = Commit Message
 
+## Push
+```
+git push
+```
 
 ## Show all commits:
 ```
