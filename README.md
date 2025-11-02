@@ -79,3 +79,30 @@ git log
 ```
 git help
 ```
+
+# Git in Visual Studio GUI :
+
+## Clone a repository:
+
+<img width="460" height="141" alt="image" src="https://github.com/user-attachments/assets/aa631fba-7ffa-4831-ba2a-6c62c138f730" />
+
+## New Branch:
+
+<img width="358" height="369" alt="image" src="https://github.com/user-attachments/assets/2103a0e4-bf26-4450-a125-e18a28ad4270" />
+
+
+<img width="513" height="257" alt="image" src="https://github.com/user-attachments/assets/e0d116be-4944-4999-96f1-f88083c86020" />
+
+## Merge a Branch to the Master-Branch:
+
+merge the feature_Appointment branch in to the master branch :
+
+<img width="371" height="370" alt="image" src="https://github.com/user-attachments/assets/e8a3f5b1-5902-4fb7-a554-6ca246d89bf9" />
+
+
+
+
+
+
+
+
